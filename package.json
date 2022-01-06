@@ -4,9 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node --es-module-specifier-resolution=node index.js",
+    "start": "node --es-module-specifier-resolution=node index.ts",
     "test": "jest",
-    "lint": "eslint lib/**/*.js"
+    "lint": "eslint src/**/*.ts"
   },
   "keywords": [],
   "author": "Bruno Coitinho Araújo",
