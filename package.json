@@ -1,0 +1,25 @@
+{
+  "name": "js-jest-babel-eslint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --es-module-specifier-resolution=node index.js",
+    "test": "jest",
+    "lint": "eslint lib/**/*.js"
+  },
+  "keywords": [],
+  "author": "Bruno Coitinho Araújo",
+  "type": "module",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/core": "^7.16.7",
+    "@babel/plugin-transform-modules-commonjs": "^7.16.7",
+    "@types/jest": "^27.4.0",
+    "babel-jest": "^27.4.6",
+    "eslint": "^8.6.0",
+    "eslint-plugin-jest": "^25.3.4",
+    "jest": "^27.4.7",
+    "ts-jest": "^27.1.2"
+  }
+}
