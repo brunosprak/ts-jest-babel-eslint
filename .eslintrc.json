@@ -1,15 +1,19 @@
 {
-    "env": {
-      "browser": true,
-      "es2021": true,
-      "jest": true
-    },
-  
-    "extends": ["eslint:recommended"],
-    "parserOptions": {
-      "ecmaVersion": 13,
-      "sourceType": "module"
-    },
-    "rules": {
-    }
-  }
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "jest": true
+  },
+
+  "parser": "@typescript-eslint/parser",
+
+  "plugins": ["@typescript-eslint", "jest"],
+
+  "extends": ["eslint:recommended", "plugin:@typescript-eslint/recommended"],
+
+  "parserOptions": {
+    "ecmaVersion": 13,
+    "sourceType": "module"
+  },
+  "rules": {}
+}
